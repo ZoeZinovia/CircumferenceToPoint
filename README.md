@@ -9,7 +9,7 @@ This application determines the distance between a circumference and a given poi
 The first part involves the analysis of the three circumference points. In order to create a circumference from three points, the points must form a right-angle triangle (see the triangle formed by the two yellow points and one blue point in figure 1). The three points are therefore first analysed to ensure that they are valid points (non-colinear and unique) and that they form a right-angle triangle. Following this, the right-angle vertex (blue point in figure 1) is identified from the three points using Pythagoras' Theorem. This step is crucial for the calculation of midpoints (marked by red x's in figure 1) and for the construction of the perpendicular bisector.
 
 
-![Image showing calculation of the distance from a circumference to a point](CircumferencetoPoint.png)
+![Image showing calculation of the distance from a circumference to a point](https://github.com/ZoeZinovia/CircumferenceToPoint/blob/master/CircumferenceToPoint.png)
 
 The second part comprises of the construction of line-segments and the respective perpendicular bisectors (mediatriz). Two line-segments are constructed between the right-angle vertex and the other two points (in yellow in figure 1). The midpoints of these line segments are then calculated, which are shown as red crosses in figure 1. Using the gradient of the line-segments and their midpoints, the mediatriz lines are then constructed (shown as green lines in figure 1). Finally, the center of the circumference is determined by the point of intersection of the two perpendicular bisectors, shown as the green point. The radius of the circumference is calculated as the distance between the center and the right-angle vertex.
 
